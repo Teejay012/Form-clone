@@ -1,0 +1,338 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #262626;
+    background-color: #fafafa;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+}
+.log-in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+.phone{
+    margin-right: 32px;
+}
+.cont{
+    height: 580px;
+    width: 28%;
+    margin-top: 20px;
+}
+.cont-1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #dbdbdb;
+    padding: 10px 0;
+    background-color: #fff;
+    height: 390px;
+}
+.cont .logo{
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 30px 0;
+}
+input{
+    width: 78%;
+    height: 37px;
+    background: #fafafa;
+    outline: none;
+    border-radius: 2px;
+    border: 1px solid #dbdbdb;
+    font-size: 12px;
+    padding: 0 0 0 10px;
+    font-weight: 400;
+}
+.form-cont{
+    margin: 5px 0;
+}
+.form-cont button{
+    width: 78%;
+    height: 30px;
+    margin-top: 8px;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgba(0,149,246,.3);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    opacity: 1;
+}
+.or .line{
+    background-color: #dbdbdb;
+    height: 1px;
+    width: 30%;
+    text-align: center;
+}
+.or{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.or p{
+    color: #8e8e8e;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0 18px;
+}
+.facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+.facebook i ion-icon{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    color: #385185;
+}
+.facebook a{
+    font-weight: 600;
+    color: #385185;
+}
+.pass{
+    color: #00376b;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.cont-2{
+    margin: 10px 0;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.cont-2 p{
+    color: #262626;
+}
+.cont-2 a{
+    color: #0095f6;
+    margin-left: 5px;
+    font-weight: 600;
+}
+.cont-3{
+    text-align: center;
+    padding: 10px 0;
+}
+.store{
+    margin: 20px 0;
+}
+.app-s{
+    width: 40%;
+    margin: 2px;
+}
+.play-s{
+    width: 40%;
+    margin: 2px;
+}
+
+/* Footer */
+footer{
+    padding: 20px 0;
+    height: 160px;
+}
+.nav-1 ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.nav-1 a{
+    color: #8e8e8e;
+    margin: 8px;
+    font-size: 12px;
+    line-height: 16px;
+}
+.nav-2 ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.nav-2 a{
+    color: #8e8e8e;
+    margin: 8px;
+    font-size: 12px;
+    line-height: 16px;
+}
+.nav-3{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.nav-3 a{
+    color: #8e8e8e;
+    margin: 8px;
+    font-size: 12px;
+    line-height: 16px;
+}
+.nav-3 p{
+    color: #8e8e8e;
+    margin: 8px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+/* Sign up*/
+
+.sign-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+.sign-up{
+    width: 28%;
+    align-self: center;
+    justify-self: center;
+}
+.sign-ph{
+    display: none;
+}
+.sign-1{
+    padding: 20px 0;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.sign-1 .logo{
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+.sign-1 .intr{
+    color: #8e8e8e;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0 40px 10px;
+    text-align: center;
+}
+.sign-facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0095f6;
+    border-radius: 4px;
+    font-weight: 600;
+    height: 33px;
+    text-align: center;
+    margin: 0 38px;
+    margin-top: 20px;
+}
+.logo-facebook{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+}
+.sign-facebook a{
+    color: #fff;
+}
+form p{
+    color: #8e8e8e;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 10px 40px;
+    text-align: center;
+}
+form button{
+    width: 78%;
+    height: 30px;
+    margin-top: 8px;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgba(0,149,246,.3);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+@media(max-width: 1200px){
+    .sign-up{
+        width: 40%;
+    }
+}
+@media(max-width: 1000px){
+    .phone{
+        display: none;
+    }
+    .cont{
+        width: 50%;
+    }
+}
+@media(max-width: 850px){
+    .sign-up{
+        width: 50%;
+    }
+}
+@media(max-width: 700px){
+    .cont{
+        width: 60%;
+    }
+}
+@media(max-width: 600px){
+    .sign-up{
+        width: 70%;
+    }
+}
+@media(max-width: 500px){
+    .cont{
+        width: 70%;
+    }
+    .sign-up{
+        width: 80%;
+    }
+}
+@media(max-width: 400px){
+    .cont{
+        width: 100%;
+    }
+    .log-in{
+        padding: 0;
+    }
+    .cont-1{
+        padding: 0;
+    }
+    .cont-1,
+    .cont-2{
+        background-color: transparent;
+        border: none;
+    }
+    .sign-cont{
+        padding: 0;
+    }
+    .sign-up{
+        width: 100%;
+    }
+    .sign-1{
+        border: navajowhite;
+        background-color: transparent;
+    }
+}
